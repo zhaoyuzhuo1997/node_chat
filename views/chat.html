@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class='chat'>
+	<ul class='contents'></ul>
+	<div class='chat_box'>
+		<input type='text' id='word' placeholder='메세지 입력..'>
+	</div>
+</div>
+
+<script type='text/html' id='chat_template'>
+	<li class='<%=addClass%>'>
+		<span class='userNm'><%=userNm%></span>
+		<span class='message'><%=message%></span>
+	</li>
+</script>
+{% endblock %}

@@ -1,0 +1,14 @@
+ * { box-sizing: border-box; }
+html { font-size: 13px; }
+body { padding: 0; margin: 0; }
+
+
+.chat { width: 400px; margin: 100px auto; }
+.chat .contents { border: 1px solid #212121; height: 400px; overflow-y: auto; background-color: #f8f8f8; border-radius: 5px; list-style: none;  margin: 0 0 10px; padding: 0; }
+.chat input[type='text'] { border: 1px solid #212121; height: 40px; border-radius: 5px; padding: 0 10px; width: 100%; }
+
+.chat li { padding: 7px 10px; border-bottom: 1px dashed #d5d5d5; font-size: 12px;  }
+.chat li.other { text-align: right; }
+
+.chat .userNm { font-size: 11px; color: #ffffff; background-color: pink; padding: 4px 10px; border-radius: 5px; }
+.chat li.other .userNm { background-color: orange; }
